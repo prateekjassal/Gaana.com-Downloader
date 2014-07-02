@@ -1,0 +1,21 @@
+{
+   "background": 
+   {
+         "scripts": [ "main.js" ],
+        "persistent": true
+   },
+   "page_action":
+   {
+      "default_icon": {
+      	 "19": "images/icon_19.png",
+         "38": "images/icon_38.png"
+         },
+      "default_title": "GaanaDL: Download your favourite songs"
+   },
+"manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "Gaana Downloader",
+   "permissions": [ "webRequest", "webRequestBlocking", "downloads", "tabs", "*://*.gaana.com/"],
+   "short_name": "GaanaDL",
+   "version": "1"
+}
