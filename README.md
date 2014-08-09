@@ -1,7 +1,7 @@
 Gaana.com-Downloader
 ====================
 
-This is a Chrome extension that helps you download any song on Gaana.com. 
+This is a Chrome extension that helps you download most songs on Gaana.com. There's an issue with older albums, in that case the download icon may not appear.
 
 1. Go to chrome://extensions and put it on developer mode.
 2. Use load unpacked extension to load the folder "GaanaDL".
