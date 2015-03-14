@@ -8,7 +8,7 @@ Log requests, save Gaana streaming URLs for each tab and show page action corres
 */
 chrome.webRequest.onCompleted.addListener(function(details) 
 {
-	if (details.statusCode == 200 && details.type == "object")
+	if (details.statusCode == 200 && details.type == "other")
 	{
 		var tab = details.tabId;
 		tabs_urls.tab = details.url;
